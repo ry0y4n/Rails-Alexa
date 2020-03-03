@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root  'users#index'
+  root 'hello#index'
   get 'hello/index'
   get 'hello', to: 'hello#index'
   get 'hello/other'
