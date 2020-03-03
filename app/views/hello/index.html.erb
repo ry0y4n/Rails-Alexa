@@ -1,0 +1,7 @@
+<h1 class="display-4"><%= @title %></h1>
+<h2 class="display-3"><%= $result %></h2>
+<p><%= @msg %></p>
+<%= form_tag(controller: "hello", action: "index") do %>
+    <%= text_field_tag("input1", "", {class:"form-control"}) %>
+    <%= submit_tag("Click", {class:"btn btn-primary"}) %>
+<% end %>
