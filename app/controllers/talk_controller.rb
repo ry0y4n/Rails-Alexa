@@ -7,6 +7,6 @@ class TalkController < ApplicationController
     #response = AlexaRubykit::Response.new
    # response.add_speech("あなたの名前は#{request.slots[:MyName][:value]}ですね")
     #render json: response.build_response
-    render json: params['version']
+    #render json: params['version']
   end
 end
