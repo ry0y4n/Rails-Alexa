@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   get 'hello/other'
   post 'hello', to: 'hello#index'
   post 'hello/index'
+  resources :talk, only: [:create]
 end
 
